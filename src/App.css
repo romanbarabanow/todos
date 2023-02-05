@@ -1,0 +1,61 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+	background-color: #222222;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input {
+	height: 30px;
+	width: 250px;
+	border: none;
+	border-bottom: 1px solid whitesmoke;
+	background: none;
+	color: white;
+	padding: 0 10px;
+	outline: none;
+}
+
+.enter {
+	background: none;
+	height: 30px;
+	width: 100px;
+	color: whitesmoke;
+	font-size: 12px;
+	border: 1px solid whitesmoke;
+	margin-left: 10px;
+}
+
+.enter:hover {
+	background-color: whitesmoke;
+	color: #222222;
+}
+
+.todo_item {
+	position: absolute;
+	cursor: move;
+	min-width: 250px;
+	color: black;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+.delete {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	background: none;
+	border: none;
+}
+
+.delete:hover {
+	color: red;
+	cursor: pointer;
+}
